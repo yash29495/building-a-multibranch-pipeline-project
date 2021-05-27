@@ -19,7 +19,7 @@ pipeline {
 		booleanParam(defaultValue: false, name: 'SONAR')
 		booleanParam(defaultValue: false, name: 'SAST')
 		booleanParam(defaultValue: false, name: 'TDARSANITY')
-		booleanParam(defaultValue: false, name: 'COMPLETE')
+		booleanParam(defaultValue: false, name: 'CddddddOMPLETE')
 		
 		string(name: 'SWM_PKGVERSION', description: 'Format: 2006-SNAPSHOT.yyMMddHH.git7')
 		choice(choices: '''com.att.bbnms.ml.DEV1b
@@ -33,6 +33,10 @@ com.att.bbnms.ml.IT2b
 com.att.bbnms.ml.IT3b
 com.att.bbnms.ml.IT4b
 com.att.bbnms.ml.IT5b
+
+
+
+
 com.att.bbnms.ml.IT6b
 com.att.bbnms.ml.IT7b
 com.att.bbnms.ml.IT8b
